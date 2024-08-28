@@ -1,0 +1,155 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(121,32,153,1) 86%);
+    background-attachment: fixed;
+    margin:0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#form{
+    width:85%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding:20px;
+    margin: auto;
+    margin-top:20px;
+}
+
+h1{
+    text-align: center;
+    color:#792099;
+}
+
+#form button{
+    background-color: #792099;
+    color:white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding:10px;
+    cursor:pointer;
+    font-size:15px;
+    width:100%;
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size:15px;
+    padding:10px;
+    border:1px solid rgb(34,193,195) ;
+}
+
+.input-group input:focus{
+    outline:0;
+}
+
+.input-group .error{
+    color:rgb(242, 18, 18);
+    font-size:13px;
+}
+
+.disabled_input {
+    color: red;
+}
+
+.index_main {
+    text-align: center;
+    padding-top:10px;
+}
+
+.senior_php_developer_img {
+    width: 95%;
+    box-shadow:10px 12px 40px 10px black;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #3498db;
+    text-align: right;
+}
+
+header ul {
+    display: inline-flex ;
+    margin-right:10px;
+}
+
+header ul li {
+    list-style: none;
+    display: inline;
+    margin: 12px;
+    border: thin;
+    color: white;
+}
+
+header ul li a {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+footer a {
+    color: lightgray;
+}
+
+header ul li a:hover, footer a:hover {
+    color: white;
+    background-color: #792099;
+}
+
+header ul li a:active {
+    color: #792099;;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;;
+  color: white;
+}
+
+footer hr {
+  margin: 2rem 0;
+}
+
+
+
+
+
+/* Media query for tablets and above */
+@media (min-width: 768px) {
+    #form{
+        width:70%;
+    }
+    .index_main {
+        text-align: center;
+        padding-top:10px;
+
+    }
+
+    .senior_php_developer_img {
+        width: 65%;
+        padding: 10px;
+        box-shadow:10px 12px 40px 10px black;
+    }
+}
+
+/* Media query for desktop screens */
+@media (min-width: 992px) {
+    #form{
+        width:50%;
+    }
+}
+
+/* Media query for larger desktop screens */
+@media (min-width: 1200px) {
+    #form{
+        width:40%;
+    }
+}

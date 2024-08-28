@@ -16,7 +16,7 @@ Developer Porfolio URL and Website	=>	https://apollosgeofrey.epizy.com
 Project GitHub URL					=>	https://github.com/apollosgeofrey/Senior_PHP_Developer_Task_With_YIPONLINE
 
 
-<!-- System installation Requirements -->
+<!-- System installation requirements -->
 	- php 7.2 ^
 	- composer
 	- mysql database server

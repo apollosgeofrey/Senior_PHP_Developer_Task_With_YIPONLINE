@@ -9,13 +9,13 @@
 
 	class Smarty extends ParentSmarty
 	{
-		/** Smarty Class Constuctor  **/
+		/** Smarty Class Constructor  **/
 		public function __construct()
 		{
 			/** Constructor body  **/
 		}
 
-		/** Creates and instance of the PaSmarty Class Constuctor  **/
+		/** Creates and instance of the Smarty Class Constuctor  **/
 		public static function createSmartyInstance()
 		{
 			/** Instantiate the parent Smarty class and return it  **/
