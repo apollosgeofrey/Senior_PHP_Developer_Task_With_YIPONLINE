@@ -72,14 +72,14 @@
 				**/
 				return [
 					'status' => 'successful',
-					'message' => 'The new user record has been successgully created.',
+					'message' => 'The new user record has been successfully validated.',
 					'data' => $valid_user_data,
 				];
 
 			} else {
 				return [
 					'status' => 'failed',
-					'message' => 'Oops... An error occured while creating the new user record.',
+					'message' => 'Oops... An error occured while validating the new user record.',
 					'errors' => $validator_errors
 				];
 			}
