@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.4.0, created on 2024-08-28 15:35:37
+/* Smarty version 5.4.0, created on 2024-08-29 05:38:14
   from 'file:common_views/footer.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.0',
-  'unifunc' => 'content_66cf27a9e9e8f8_90880530',
+  'unifunc' => 'content_66cfed26a0ca75_13512538',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_66cf27a9e9e8f8_90880530 (\Smarty\Template $_smarty_tpl) {
+function content_66cfed26a0ca75_13512538 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = '/opt/lampp/htdocs/Senior_PHP_Developer_Task_With_YIPONLINE/smarty_templates/templates_view/common_views';
 ?>
 
